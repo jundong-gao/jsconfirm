@@ -1,13 +1,17 @@
 {
   "name": "vue-jsconfirm",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "license": "MIT",
-  "repository":{
-	  "type": "git",
-	  "url": "git@github.com:Icejundong/jsconfirm.git"
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Icejundong/jsconfirm.git"
   },
-  "keywords": ["vue2.x", "confirm","js调用"],
+  "keywords": [
+    "vue2.x",
+    "confirm",
+    "js调用"
+  ],
   "description": "询问框组件 confirm js",
   "main": "lib/vue-jsconfirm.umd.min.js",
   "scripts": {
@@ -17,9 +21,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
-    "vue": "^2.6.11",
-    "vue-router": "^3.1.6",
-    "vuex": "^3.1.3"
+    "vue": "^2.6.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.3.0",
