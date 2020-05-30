@@ -12,7 +12,7 @@ Vue.use(vueConfirm)
 
 ### vue页面中使用
 ```js
-this.$notice({
+this.$showConfirm({
 	content:'内容',
 	showCancel:true,
 	success: (res) => {console.log('打印的结果:::::', res)}

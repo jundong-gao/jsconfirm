@@ -30,6 +30,6 @@ const Notice = (options = {}) => {
 
 export default {
     install: Vue => {
-        Vue.prototype.$modal = Notice // 将Notice组件暴露出去，并挂载在Vue的prototype上
+        Vue.prototype.$showConfirm = Notice // 将Notice组件暴露出去，并挂载在Vue的prototype上
     }
 }
